@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio- Project</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+     <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="main.html">Portfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about1.html" class="nav-link active">About</a>
+                <a href="skills1.html" class="nav-link active">Skills</a>
+                <a href="project.html" class="nav-link active">Projects</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header">
+        <h1>My Projects</h1>
+    </div>
+    <section id="projects" class="section fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="ai">AI & ML</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card" data-category="ai">
+                <div class="project-image">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">AI Powered Spam Detection System</h3>
+                    <p class="project-description">An AI powered spam detection system classifies email or message whether it is spam or safe.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">ElderPal- A Voice Assistant for Senior Citizens</h3>
+                    <p class="project-description">ElderPal is a voice-assisted web app designed to help senior citizens manage daily tasks, medications, and stay informed—hands-free and hassle-free.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">API Integration</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Weather App</h3>
+                    <p class="project-description">A responsive weather application with location-based forecasts, interactive maps, and weather alerts using multiple weather APIs.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">HTML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="github-activity">
+            <h3 class="github-title">GitHub Contributions</h3>
+            <div class="github-calendar">
+                <div class="github-placeholder">
+                    <i class="fab fa-github"></i>
+                    <p>GitHub contribution calendar would be displayed here</p>
+                    <a href="https://github.com/Sumit07-git" class="github-profile-link">View My GitHub Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
