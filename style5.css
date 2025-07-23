@@ -445,64 +445,6 @@ body {
 }
 
 
-.map-container {
-    background: var(--card-bg);
-    padding: 3rem;
-    border-radius: 20px;
-    box-shadow: var(--shadow-medium);
-    border: 1px solid var(--border-color);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.map-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--gradient-accent);
-}
-
-.map-container h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    color: var(--text-primary);
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.map-placeholder {
-    background: var(--secondary-bg);
-    border-radius: 15px;
-    padding: 4rem 2rem;
-    border: 2px dashed var(--border-color);
-    transition: all 0.3s ease;
-}
-
-.map-placeholder:hover {
-    border-color: var(--accent-color);
-    background: rgba(0, 212, 255, 0.05);
-}
-
-.map-placeholder i {
-    font-size: 4rem;
-    color: var(--text-muted);
-    margin-bottom: 1rem;
-    display: block;
-}
-
-.map-placeholder p {
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-}
-
-
 @keyframes fadeInUp {
     from {
         opacity: 0;
