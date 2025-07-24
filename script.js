@@ -194,6 +194,33 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+emailjs.init({
+  publicKey: "CQ5SwDxB0vOWlq5F5",
+});
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const submitBtn = document.querySelector('.submit-btn');
+    const originalText = submitBtn.textContent;
+    
+    submitBtn.textContent = 'Sending...';
+    submitBtn.disabled = true;
+    
+    emailjs.sendForm('service_1ir6psl', 'template_96cd30r', this)
+    .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Message sent successfully! I\'ll get back to you soon.');
+        document.getElementById('contactForm').reset();
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+    }, function(error) {
+        console.log('FAILED...', error);
+        alert('Failed to send message. Please try again or email me directly.');
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+    });
+});
 
 
 
