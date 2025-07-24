@@ -9,7 +9,7 @@ This is my personal portfolio website built using **HTML, CSS, and JavaScript**.
 ## 📁 Project Overview
 
 - 💻 **Responsive Design** – Optimized for desktop, tablet, and mobile.
-- 🛠 **Tech Stack** – HTML5, CSS3, Vanilla JavaScript.
+- 🛠 **Tech Stack** – HTML5, CSS3,JavaScript.
 - 🧠 **Skill Sections** – Programming Languages, Web Technologies, and Tools.
 - 📂 **Project Showcase** – Highlights recent work and achievements.
 - 📄 **Resume Download** – Easily accessible in the About section.
@@ -23,7 +23,6 @@ This is my personal portfolio website built using **HTML, CSS, and JavaScript**.
 - **Deployment**: Vercel
 
 ---
-
 ---
 
 ## 📦 Getting Started
@@ -38,7 +37,7 @@ git clone https://github.com/Sumit07-git/myportfolio.git
 cd myportfolio
 
 # Open index.html in your browser
-No dependencies or build tools required. It's a static site.
+
 
 🌍 Deployment
 This portfolio is deployed on Vercel:
