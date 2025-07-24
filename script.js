@@ -207,7 +207,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     submitBtn.textContent = 'Sending...';
     submitBtn.disabled = true;
     
-    emailjs.sendForm('service_1ir6psl', 'template_96cd30r', this)
+    emailjs.sendForm('service_nkyynth', 'template_96cd30r', this)
     .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         alert('Message sent successfully! I\'ll get back to you soon.');
