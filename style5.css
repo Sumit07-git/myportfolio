@@ -114,15 +114,20 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    height: 18px;
+    width: 24px;
+    
 }
 
 .bar {
     width: 25px;
-    height: 3px;
+    height: 4px;
     background: var(--text-primary);
-    margin: 3px 0;
     transition: 0.3s;
-    border-radius: 2px;
+    border-radius: 6px;
 }
 
 
