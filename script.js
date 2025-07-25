@@ -46,11 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (statNumber && !statNumber.classList.contains('animated')) {
                     statNumber.classList.add('animated');
 
-
-                    const label = entry.target.querySelector('.stat-label');
-                    const isCGPA = label && label.textContent.toLowerCase().includes('cgpa');
-
-                    animateCounter(statNumber, isCGPA);
+                    animateCounter(statNumber, false);
                 }
             }
         });

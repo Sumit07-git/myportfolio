@@ -1288,16 +1288,6 @@ body {
     margin-bottom: 5px;
 }
 
-.education-grade {
-    color: var(--text-secondary);
-    font-size: 0.95rem;
-    padding: 5px 15px;
-    background: rgba(0, 212, 255, 0.1);
-    border-radius: 20px;
-    display: inline-block;
-    border: 1px solid rgba(0, 212, 255, 0.2);
-}
-
 .interests-list {
     display: flex;
     flex-wrap: wrap;
